@@ -19,7 +19,7 @@ ipykernel = "*"
 pytest = "*"
 pre-commit = "*"
 mypy = "*"
-mkdocstrings = "^*"
+mkdocstrings = "*"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

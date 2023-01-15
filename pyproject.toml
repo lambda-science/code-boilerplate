@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "PACKAGE_NAME"
+version = "0.1.0"
+description = "PACKAGE_NAME"
+authors = ["Corentin Meyer <lambdascience@tutanota.com>"]
+license = "AGPL"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pip = "*"
+setuptools = "*"
+wheel = "*"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "*"
+mkdocs-material = "*"
+black = {extras = ["jupyter"], version = "*"}
+ipykernel = "*"
+pytest = "*"
+pre-commit = "*"
+mypy = "*"
+mkdocstrings = "^*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
